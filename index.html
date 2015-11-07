@@ -1,7 +1,145 @@
-<html>
-<h>Welcome</h>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Parikshith MJ</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+ 
+
+</head>
+<style>
+div.footer {
+    border: 1px solid #73AD21;
+	float :bottom;
+}
+body {
+	background-image: url("bg-plain.jpg");
+	background-color: #cccccc;
+}
+
+h2{
+    text-shadow: 2px 2px #66CCCC ;
+}
+
+#profilepic{
+    margin: 5px;
+	border: 2px solid rgba(255,0,0,0.3);
+	float :right
+}
+
+#contact{
+ clear: both;
+
+background-color:rgba(255, 0, 0, 0.3);
+float:bottom;
+padding-bottom: 25px;
+text-align:center;
+ height: 6em;
+
+}
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(loader.gif) center no-repeat #fff;
+}
+</style>
+<script>
+//paste this code under head tag or in a seperate js file.
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		setTimeout(function (){
+		$(".se-pre-con").fadeOut("slow");;},3000);
+	});
+</script>
 <body>
-<p>About Me</p>
-<p>Graduate Student at SJSU</p>
+<div class="se-pre-con"></div>
+<div class="container">
+<h2><a href="https://github.com/parikshithmj">Parikshith Malalur Jagadeesh</a>
+ <a href="https://www.linkedin.com/pub/parikshith-m-j/34/b6b/606">
+      
+          <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Parikshith M J's profile on LinkedIn">
+        
+    </a></h2>
+	
+    <ul class="nav nav-tabs">
+     <li class="active"><a data-toggle="tab" href="#home">ABOUT ME</a></li>
+     <li><a data-toggle="tab" href="#menu1">EDUCATION</a></li>
+     <li><a data-toggle="tab" href="#menu2">EXPERIENCE</a></li>
+     <li><a data-toggle="tab" href="#menu3">PROJECTS</a></li>
+    </ul>
+	<div id="profilepic">
+	<img src="profilepic.jpg" alt="Profile Picture" style="width:304px;height:228px;">
+	
+	</div>
+	
+
+<div class="tab-content">
+<div id="home" class="tab-pane fade in active">
+    <h3>Seeking a challenging internship in Software Engineering for summer 2016</h3>
+	<p>Passionate about programming and delivering clean and well designed code.Hard working nature and positive attitude are my treasured assets.I believe I have making of an ace developer-impressive problem solving skills,sharp reasoning and a logical bent.<p>
+	<h4>Summary</h4>
+	<p>•MS in Software Engineering student at San Jose State University
+	<p>•Cloud and Virtualization and Enterprise Software specialisation
+	<p>•2.5+ years experience as Software Developer Engineer -II @Cisco Systems.
+<p>•Good Knowledge of all phases of SDLC and agile practices
+<p>•Languages: HTML5, CSS, JavaScript, AngularJs (Beginner), Java, C, GO
+<p>•Technologies: Web Services(REST), JSP/Servlet, Nodejs (Novice), Amazon Web Service,       
+<p>•MongoDB , MySQL, Redis
+<p>•Others: Windows, Linux(Ubuntu), Mac, Git , Clearcase , Maven ,SmartBear          
+
+    </div>
+    <div id="menu1" class="tab-pane fade">
+	<h3>Masters in Software Engineering</h3>
+	<h4>San Jose State University</h4>
+	<p>Enterprise Software Technologies</p>
+	<p>Cloud and Virtualization</p>
+	
+	<h3>B.E in Information Science and Engineering    </h3>
+	<h4>PESIT,India</h4>
+	<p>Information Science GPA:8.25/10</p>
+	<p></p>
+	
+    </div>
+<div id="menu2" class="tab-pane fade"> 
+<h3>Cisco Systems</h3>
+<h4>Software Engineer II </h4>
+<p>Dec,2012 - July,2015</p>
+<p>Products worked on:Cisco SocialMiner and Cisco Contact Center Express (CCX)</p>
+<h3>Humdinger Labs</h3>
+<h4>Intern </h4>
+<p>Jan,2012 - May,2012</p>
+<p>Products worked on:Business Networking Mobile Application</p>
+
+ </div>
+ <div id="menu3" class="tab-pane fade">
+      <h3>Consistent Hashing for Redis Caching</h3>
+      <p>Scalable web cache using consistent hashing on top of Redis, which Redis lacks to overcome issues in general hashing when a new server is added or removed.  Java </p>
+	  <h3>Bitly URL Shortener</h3>
+	  <p>Cloud scale Bitly-Like Service on Amazon Cloud and Heroku using  Message bus architecture</p>
+	  <h3>SMS based Commands</h3>
+	  <p>Commands like Ping, Turn on Music (for finding phone in Silent mode) over SMS. Had features like retrieving Inbox SMS/Phone Contacts (if phone left at home) and phone location</p>
+	  <h3>SVN for Android</h3>
+	  <p> A diff file was generated by comparing the changes made to the original file .The server took the patch file to modify the file in the</p>
+	  repository accordingly to control the versioning of the file</p>
+	  </div>
+ </div>
+ 
+ </div>
+ 
+ 
 </body>
+ 
 </html>
+<
